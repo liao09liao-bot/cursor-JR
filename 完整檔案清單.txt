@@ -1,0 +1,89 @@
+========================================
+JR Industrial Mounts - 完整檔案清單
+應該上傳到 GitHub 的檔案
+========================================
+
+【根目錄檔案】
+package.json
+package-lock.json (如果存在)
+index.html
+vite.config.js
+tailwind.config.js
+postcss.config.js
+README.md
+.gitignore
+DEPLOYMENT.md
+GitHub連接指南.md
+GitHub連接完成檢查.md
+推送到GitHub.md
+驗證GitHub連接.md
+刪除GitHub儲存庫步驟.md
+預覽說明.md
+檢查Git狀態.bat
+連接GitHub.bat
+連接GitHub.ps1
+推送指令.bat
+檢查上傳狀態.md
+檢查上傳檔案.bat
+完整檔案清單.txt
+
+【src/ 目錄】
+src/main.jsx
+src/App.jsx
+src/index.css
+
+【src/components/ 目錄】
+src/components/Hero.jsx
+src/components/Products.jsx
+src/components/ProductCard.jsx
+src/components/About.jsx
+src/components/ContactForm.jsx
+src/components/Footer.jsx
+src/components/Navbar.jsx
+
+【src/components/Auth/ 目錄】
+src/components/Auth/Login.jsx
+src/components/Auth/Register.jsx
+
+【src/components/Cart/ 目錄】
+src/components/Cart/Cart.jsx
+
+【src/components/Admin/ 目錄】
+src/components/Admin/ProductManagement.jsx
+
+【src/context/ 目錄】
+src/context/AuthContext.jsx
+src/context/CartContext.jsx
+src/context/ProductContext.jsx
+
+========================================
+不應該上傳的檔案（在 .gitignore 中）
+========================================
+node_modules/
+dist/
+dist-ssr/
+*.log
+*.local
+.vscode/
+.idea/
+.DS_Store
+
+========================================
+檢查方法
+========================================
+
+1. 前往 GitHub 網站：
+   https://github.com/liao09liao-bot/cursor-JR
+
+2. 對照以上清單，確認所有檔案都已上傳
+
+3. 特別檢查：
+   - package.json 是否存在
+   - src/ 目錄是否完整
+   - README.md 是否上傳
+   - .gitignore 是否上傳
+
+4. 確認 node_modules/ 和 dist/ 沒有上傳（這是正確的）
+
+========================================
+
